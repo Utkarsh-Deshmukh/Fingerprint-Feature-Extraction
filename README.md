@@ -5,6 +5,17 @@ The important fingerprint minutiae features are the ridge endpoints (a.k.a. Term
 
 The feature set for the image consists of the location of Terminations and Bifurcations and their orientations
 
+# Running the source files
+- run the file main.py
+- the input image is stored in the folder "enhanced". If the input image is not enhanced, the minutiae features will be very noisy
+
+# Libraries needed:
+- opencv
+- skimage
+- numpy
+- math
+
+# Note
 use the code https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python to enhance the fingerprint image.
 This program takes in the enhanced fingerprint image and extracts the minutiae features.
 
