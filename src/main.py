@@ -17,14 +17,14 @@ import numpy as np
 import skimage.morphology
 import skimage
 
-from getTerminationBifurcation import getTerminationBifurcation;
-from removeSpuriousMinutiae import removeSpuriousMinutiae
-from CommonFunctions import ShowResults
-from extractMinutiaeFeatures import extractMinutiaeFeatures
+from src.getTerminationBifurcation import getTerminationBifurcation;
+from src.removeSpuriousMinutiae import removeSpuriousMinutiae
+from src.CommonFunctions import ShowResults
+from src.extractMinutiaeFeatures import extractMinutiaeFeatures
 
 
 if __name__ == "__main__":
-    img = cv2.imread('../enhanced/1.jpg',0);
+    img = cv2.imread('../enhanced/3.jpg',0);
     img = np.uint8(img>128);
     
     skel = skimage.morphology.skeletonize(img)
@@ -36,6 +36,9 @@ if __name__ == "__main__":
     minutiaeTerm = skimage.measure.label(minutiaeTerm, connectivity=2);
     RP = skimage.measure.regionprops(minutiaeTerm)
     minutiaeTerm = removeSpuriousMinutiae(RP, np.uint8(img), 10);
+
+    minutiaeTerm = skimage.measure.label(minutiaeTerm, connectivity=2);
+    RP2 = skimage.measure.regionprops(np.uint8(minutiaeTerm))
 
     '''
     minutiaeBif = skimage.measure.label(minutiaeTerm, connectivity=2);
