@@ -112,7 +112,6 @@ class FingerprintFeatureExtractor(object):
         WindowSize = 2  # --> For Termination, the block size must can be 3x3, or 5x5. Hence the window selected is 1 or 2
         FeaturesTerm = []
         for num, i in enumerate(RP):
-            print(num)
             (row, col) = np.int16(np.round(i['Centroid']))
             block = self._skel[row - WindowSize:row + WindowSize + 1, col - WindowSize:col + WindowSize + 1]
             angle = self.__computeAngle(block, 'Termination')
