@@ -39,3 +39,16 @@ Here are some of the outputs:
 
 ![1](https://user-images.githubusercontent.com/13918778/35665568-ae1fdb6c-06db-11e8-937b-33d7445c931d.jpg)   ![enhanced_feat1](https://user-images.githubusercontent.com/13918778/35665578-baddaf82-06db-11e8-8638-d24de65acd31.jpg)
 
+
+# How to match the extracted minutiae?
+Various papers are published to perform minutiae matching.
+Here are some good ones:
+- "A MINUTIAE-BASED MATCHING ALGORITHMS IN FINGERPRINT RECOGNITION SYSTEMS" by Łukasz WIĘCŁAW
+file:///C:/Users/deshm/AppData/Local/Temp/2009_v13_Wieclaw-1.pdf
+
+"A Minutiae-based Fingerprint Matching Algorithm Using Phase Correlation" by Weiping Chen and Yongsheng Gao
+https://core.ac.uk/download/pdf/143875633.pdf
+
+"FINGERPRINT RECOGNITION USING MINUTIA SCORE MATCHING" by RAVI. J, K. B. RAJA, VENUGOPAL. K. R
+https://arxiv.org/ftp/arxiv/papers/1001/1001.4186.pdf
+
