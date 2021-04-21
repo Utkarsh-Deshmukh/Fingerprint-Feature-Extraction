@@ -44,7 +44,7 @@ Here are some of the outputs:
 Various papers are published to perform minutiae matching.
 Here are some good ones:
 - "A MINUTIAE-BASED MATCHING ALGORITHMS IN FINGERPRINT RECOGNITION SYSTEMS" by Łukasz WIĘCŁAW
-file:///C:/Users/deshm/AppData/Local/Temp/2009_v13_Wieclaw-1.pdf
+http://www.keia.ath.bielsko.pl/sites/default/files/publikacje/11-BIO-41-lukaszWieclawMIT_v2_popr2.pdf
 
 "A Minutiae-based Fingerprint Matching Algorithm Using Phase Correlation" by Weiping Chen and Yongsheng Gao
 https://core.ac.uk/download/pdf/143875633.pdf
